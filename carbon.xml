@@ -84,6 +84,32 @@ Element color: Search and replace colors. Do not use spaces!
 
 	</view>
 
+	<view name="grid">
+
+		<image name="background" extra="true">
+			<tile>true</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/carbon_fiber.png</path>
+		</image>
+
+		<imagegrid name="gamegrid">
+			<pos>0.025 0.18</pos>
+			<size>0.950 0.73</size>
+			<margin>0.02 0.02</margin>
+		</imagegrid>
+
+		<gridtile name="default">
+			<size>0.173 0.23</size>
+			<backgroundColor>00000000</backgroundColor>
+		</gridtile>
+
+		<gridtile name="selected">
+			<backgroundColor>00000000</backgroundColor>
+		</gridtile>
+	</view>
+
 	<view name="detailed">
 
 		<image name="md_image">
@@ -223,7 +249,7 @@ Element color: Search and replace colors. Do not use spaces!
 
 		</view>
 
-	<view name="basic, detailed, video">
+	<view name="basic, detailed, video, grid">
 
 		<image name="bottom" extra="true">
 			<pos>0 1</pos>
